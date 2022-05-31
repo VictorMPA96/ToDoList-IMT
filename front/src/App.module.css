@@ -1,0 +1,33 @@
+.App{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(245, 245, 245, 0.205);
+    border-radius: 20px;
+    padding: 1em;
+    width: 600px;
+    height: fit-content;
+    
+}
+
+.bcContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+a.active{
+    color: rgb(167, 118, 54);
+}
+
+
+

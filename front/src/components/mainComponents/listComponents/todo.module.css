@@ -1,0 +1,101 @@
+.liChecked{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+
+.liNoChecked{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.priorityAndStatusContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(22, 22, 22);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    flex-basis: 40%;
+}
+
+.editIcon{
+    border: 2px solid grey;
+    border-radius: 50%;    
+    background-color: rgba(128, 128, 128, 0.459);
+    height: 1.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    color: rgb(90, 88, 88);
+    
+}
+
+.editIconDisabled{
+    border: 2px solid black;
+    border-radius: 50%;    
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 1.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    color: black;
+}
+
+.checkbox, .priority{   
+    height: 1.5em;
+    width: 1.5em;   
+    cursor: pointer;
+}
+
+.statusBtn{
+    width: 125px;
+    padding: 3px;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: lightgray;    
+    flex-basis: 50%;
+    overflow: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.noChecked{
+    flex-basis: 50%;
+    overflow-x: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.priorityLow{
+    height: 1.5em;
+    width: 1.5em;   
+    margin-right: 5px; 
+    cursor: pointer;
+    color: yellow; 
+}
+
+.priorityModerate{
+    height: 1.5em;
+    width: 1.5em;   
+    margin-right: 5px; 
+    cursor: pointer;
+    color:rgb(236, 131, 10);    
+}
+
+.priorityUrgent{
+    height: 1.5em;
+    width: 1.5em;   
+    margin-right: 5px; 
+    cursor: pointer;
+    color:darkred;    
+}
+
+
+
+
+
